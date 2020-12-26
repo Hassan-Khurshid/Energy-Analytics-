@@ -1,0 +1,256 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}D:\Rutgers\Sem III\Theory & Practice of Public Informatics\More revelations.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}11 Dec 2020, 03:51:16
+
+{com}. regress Sum i.customertype ib2.pname
+
+{txt}      Source {c |}       SS           df       MS      Number of obs   ={res}    84,666
+{txt}{hline 13}{c +}{hline 34}   F(35, 84630)    = {res}   205.13
+{txt}       Model {c |} {res} 6.4960e+13        35  1.8560e+12   {txt}Prob > F        ={res}    0.0000
+{txt}    Residual {c |} {res} 7.6573e+14    84,630  9.0479e+09   {txt}R-squared       ={res}    0.0782
+{txt}{hline 13}{c +}{hline 34}   Adj R-squared   ={res}    0.0778
+{txt}       Total {c |} {res} 8.3069e+14    84,665  9.8114e+09   {txt}Root MSE        =   {res}  95121
+
+{txt}{hline 30}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 1}                          Sum{col 31}{c |}      Coef.{col 43}   Std. Err.{col 55}      t{col 63}   P>|t|{col 71}     [95% Con{col 84}f. Interval]
+{hline 30}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{space 17}customertype {c |}
+{space 12}Government Owned  {c |}{col 31}{res}{space 2}        0{col 43}{txt}  (base)
+{space 15}Qatari Owners  {c |}{col 31}{res}{space 2} 95868.24{col 43}{space 2} 67657.63{col 54}{space 1}    1.42{col 63}{space 3}0.156{col 71}{space 4}-36740.17{col 84}{space 3} 228476.7
+{txt}{space 11}Regular Customers  {c |}{col 31}{res}{space 2} 17855.89{col 43}{space 2} 67261.21{col 54}{space 1}    0.27{col 63}{space 3}0.791{col 71}{space 4}-113975.5{col 84}{space 3} 149687.3
+{txt}{space 1}Rented Premises by Qatari's  {c |}{col 31}{res}{space 2} 39545.34{col 43}{space 2} 67362.88{col 54}{space 1}    0.59{col 63}{space 3}0.557{col 71}{space 4}-92485.38{col 84}{space 3} 171576.1
+{txt}{space 29} {c |}
+{space 24}pname {c |}
+Additional distrubution me..  {c |}{col 31}{res}{space 2} -2256615{col 43}{space 2} 71433.83{col 54}{space 1}  -31.59{col 63}{space 3}0.000{col 71}{space 4} -2396625{col 84}{space 3} -2116605
+{txt}{space 17}Beach cabin  {c |}{col 31}{res}{space 2}        0{col 43}{txt}  (base)
+{space 20}Building  {c |}{col 31}{res}{space 2} -2212013{col 43}{space 2} 95190.98{col 54}{space 1}  -23.24{col 63}{space 3}0.000{col 71}{space 4} -2398587{col 84}{space 3} -2025440
+{txt}{space 12}Building service  {c |}{col 31}{res}{space 2} -1831607{col 43}{space 2} 72341.94{col 54}{space 1}  -25.32{col 63}{space 3}0.000{col 71}{space 4} -1973396{col 84}{space 3} -1689817
+{txt}{space 9}Camel Racing  Manor  {c |}{col 31}{res}{space 2} -2144894{col 43}{space 2} 116555.9{col 54}{space 1}  -18.40{col 63}{space 3}0.000{col 71}{space 4} -2373343{col 84}{space 3} -1916446
+{txt}{space 21}Canteen  {c |}{col 31}{res}{space 2} -2015979{col 43}{space 2} 116555.9{col 54}{space 1}  -17.30{col 63}{space 3}0.000{col 71}{space 4} -2244428{col 84}{space 3} -1787531
+{txt}{space 19}Car  park  {c |}{col 31}{res}{space 2} -1653214{col 43}{space 2} 116555.9{col 54}{space 1}  -14.18{col 63}{space 3}0.000{col 71}{space 4} -1881663{col 84}{space 3} -1424766
+{txt}{space 22}Clinic  {c |}{col 31}{res}{space 2} -2187671{col 43}{space 2} 116555.9{col 54}{space 1}  -18.77{col 63}{space 3}0.000{col 71}{space 4} -2416120{col 84}{space 3} -1959223
+{txt}{space 24}Club  {c |}{col 31}{res}{space 2}   396586{col 43}{space 2} 86909.93{col 54}{space 1}    4.56{col 63}{space 3}0.000{col 71}{space 4} 226243.2{col 84}{space 3} 566928.8
+{txt}{space 15}Desert houses  {c |}{col 31}{res}{space 2} -1994030{col 43}{space 2} 116555.9{col 54}{space 1}  -17.11{col 63}{space 3}0.000{col 71}{space 4} -2222479{col 84}{space 3} -1765582
+{txt}{space 12}Electricity Pump  {c |}{col 31}{res}{space 2}-342962.3{col 43}{space 2} 95190.98{col 54}{space 1}   -3.60{col 63}{space 3}0.000{col 71}{space 4}-529535.9{col 84}{space 3}-156388.8
+{txt}{space 10}Electricity switch  {c |}{col 31}{res}{space 2} -1963432{col 43}{space 2} 116555.9{col 54}{space 1}  -16.85{col 63}{space 3}0.000{col 71}{space 4} -2191881{col 84}{space 3} -1734984
+{txt}{space 19}Extention  {c |}{col 31}{res}{space 2} -2260989{col 43}{space 2} 71179.87{col 54}{space 1}  -31.76{col 63}{space 3}0.000{col 71}{space 4} -2400501{col 84}{space 3} -2121477
+{txt}{space 10}Fire Fighting Line  {c |}{col 31}{res}{space 2} -2215230{col 43}{space 2} 79667.73{col 54}{space 1}  -27.81{col 63}{space 3}0.000{col 71}{space 4} -2371378{col 84}{space 3} -2059082
+{txt}{space 13}Fire Substation  {c |}{col 31}{res}{space 2} -2284282{col 43}{space 2} 116555.9{col 54}{space 1}  -19.60{col 63}{space 3}0.000{col 71}{space 4} -2512731{col 84}{space 3} -2055834
+{txt}{space 24}Flat  {c |}{col 31}{res}{space 2} -2257730{col 43}{space 2} 67360.31{col 54}{space 1}  -33.52{col 63}{space 3}0.000{col 71}{space 4} -2389756{col 84}{space 3} -2125705
+{txt}{space 21}Gallery  {c |}{col 31}{res}{space 2} -2251349{col 43}{space 2} 79667.73{col 54}{space 1}  -28.26{col 63}{space 3}0.000{col 71}{space 4} -2407497{col 84}{space 3} -2095201
+{txt}{space 18}Guard Room  {c |}{col 31}{res}{space 2} -2207249{col 43}{space 2} 82458.13{col 54}{space 1}  -26.77{col 63}{space 3}0.000{col 71}{space 4} -2368866{col 84}{space 3} -2045632
+{txt}{space 23}House  {c |}{col 31}{res}{space 2} -2101681{col 43}{space 2} 68765.62{col 54}{space 1}  -30.56{col 63}{space 3}0.000{col 71}{space 4} -2236461{col 84}{space 3} -1966901
+{txt}{space 15}Left Entrance  {c |}{col 31}{res}{space 2} -2120128{col 43}{space 2} 67866.84{col 54}{space 1}  -31.24{col 63}{space 3}0.000{col 71}{space 4} -2253146{col 84}{space 3} -1987109
+{txt}{space 21}Maajles  {c |}{col 31}{res}{space 2} -2151065{col 43}{space 2} 67460.42{col 54}{space 1}  -31.89{col 63}{space 3}0.000{col 71}{space 4} -2283287{col 84}{space 3} -2018843
+{txt}{space 22}Majlis  {c |}{col 31}{res}{space 2} -2188200{col 43}{space 2} 75252.16{col 54}{space 1}  -29.08{col 63}{space 3}0.000{col 71}{space 4} -2335694{col 84}{space 3} -2040706
+{txt}{space 22}Office  {c |}{col 31}{res}{space 2} -2259889{col 43}{space 2} 86909.93{col 54}{space 1}  -26.00{col 63}{space 3}0.000{col 71}{space 4} -2430231{col 84}{space 3} -2089546
+{txt}{space 22}Palace  {c |}{col 31}{res}{space 2} -2256759{col 43}{space 2} 95120.56{col 54}{space 1}  -23.73{col 63}{space 3}0.000{col 71}{space 4} -2443195{col 84}{space 3} -2070323
+{txt}{space 18}Restaurent  {c |}{col 31}{res}{space 2} -2027240{col 43}{space 2} 95190.98{col 54}{space 1}  -21.30{col 63}{space 3}0.000{col 71}{space 4} -2213813{col 84}{space 3} -1840666
+{txt}{space 24}Room  {c |}{col 31}{res}{space 2} -2210671{col 43}{space 2} 67651.28{col 54}{space 1}  -32.68{col 63}{space 3}0.000{col 71}{space 4} -2343267{col 84}{space 3} -2078075
+{txt}{space 24}Shop  {c |}{col 31}{res}{space 2} -2022891{col 43}{space 2} 116555.9{col 54}{space 1}  -17.36{col 63}{space 3}0.000{col 71}{space 4} -2251340{col 84}{space 3} -1794443
+{txt}{space 16}Super market  {c |}{col 31}{res}{space 2}-789034.3{col 43}{space 2} 116555.9{col 54}{space 1}   -6.77{col 63}{space 3}0.000{col 71}{space 4} -1017483{col 84}{space 3}-560585.6
+{txt}{space 15}Swimming pool  {c |}{col 31}{res}{space 2} -2295283{col 43}{space 2} 116555.9{col 54}{space 1}  -19.69{col 63}{space 3}0.000{col 71}{space 4} -2523732{col 84}{space 3} -2066835
+{txt}{space 7}Temporory Electricity  {c |}{col 31}{res}{space 2} -2228512{col 43}{space 2} 116555.9{col 54}{space 1}  -19.12{col 63}{space 3}0.000{col 71}{space 4} -2456961{col 84}{space 3} -2000064
+{txt}{space 8}Transmission Station  {c |}{col 31}{res}{space 2} -1934098{col 43}{space 2} 116555.9{col 54}{space 1}  -16.59{col 63}{space 3}0.000{col 71}{space 4} -2162547{col 84}{space 3} -1705650
+{txt}{space 23}Villa  {c |}{col 31}{res}{space 2} -2144508{col 43}{space 2} 67734.52{col 54}{space 1}  -31.66{col 63}{space 3}0.000{col 71}{space 4} -2277267{col 84}{space 3} -2011749
+{txt}{space 13}worker dwelling  {c |}{col 31}{res}{space 2} -2159826{col 43}{space 2} 77751.85{col 54}{space 1}  -27.78{col 63}{space 3}0.000{col 71}{space 4} -2312219{col 84}{space 3} -2007433
+{txt}{space 29} {c |}
+{space 24}_cons {c |}{col 31}{res}{space 2}  2298765{col 43}{space 2} 95191.24{col 54}{space 1}   24.15{col 63}{space 3}0.000{col 71}{space 4}  2112191{col 84}{space 3}  2485339
+{txt}{hline 30}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}
+{com}. su Sum if pname ==9, detail
+
+                             {txt}Sum
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}    33924          33924
+{txt} 5%    {res}    33924        1091069
+{txt}10%    {res}    33924        7014629       {txt}Obs         {res}          3
+{txt}25%    {res}    33924              .       {txt}Sum of Wgt. {res}          3
+
+{txt}50%    {res}  1091069                      {txt}Mean          {res}  2713207
+                        {txt}Largest       Std. Dev.     {res}  3762454
+{txt}75%    {res}  7014629              .
+{txt}90%    {res}  7014629          33924       {txt}Variance      {res} 1.42e+13
+{txt}95%    {res}  7014629        1091069       {txt}Skewness      {res}  .644825
+{txt}99%    {res}  7014629        7014629       {txt}Kurtosis      {res}      1.5
+
+{com}. su Sum if pname !=2 & pname !=9, detail
+
+                             {txt}Sum
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     4933             99
+{txt} 5%    {res}    11059            110
+{txt}10%    {res}    15595            114       {txt}Obs         {res}     84,661
+{txt}25%    {res}    29512            116       {txt}Sum of Wgt. {res}     84,661
+
+{txt}50%    {res}    48756                      {txt}Mean          {res} 60831.74
+                        {txt}Largest       Std. Dev.     {res} 94785.78
+{txt}75%    {res}    75026        5283580
+{txt}90%    {res}   106768        5293270       {txt}Variance      {res} 8.98e+09
+{txt}95%    {res}   133689        6128700       {txt}Skewness      {res} 31.55041
+{txt}99%    {res}   241550        6612160       {txt}Kurtosis      {res} 1534.568
+
+{com}. su Sum if pname ==2 | pname ==9, detail
+
+                             {txt}Sum
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}    33924          33924
+{txt} 5%    {res}    33924         105845
+{txt}10%    {res}    33924        1091069       {txt}Obs         {res}          5
+{txt}25%    {res}   105845        4605410       {txt}Sum of Wgt. {res}          5
+
+{txt}50%    {res}  1091069                      {txt}Mean          {res}  2570175
+                        {txt}Largest       Std. Dev.     {res}  3105986
+{txt}75%    {res}  4605410         105845
+{txt}90%    {res}  7014629        1091069       {txt}Variance      {res} 9.65e+12
+{txt}95%    {res}  7014629        4605410       {txt}Skewness      {res} .5756052
+{txt}99%    {res}  7014629        7014629       {txt}Kurtosis      {res} 1.646621
+
+{com}. histogram Sum if pname ==2 | pname ==9, freq
+{txt}(bin={res}2{txt}, start={res}33924{txt}, width={res}3490352.5{txt})
+{res}
+{com}. histogram Sum if pname !=2 & pname !=9, freq
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. su Sum if pname == 16, detail
+
+                             {txt}Sum
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}     4940             99
+{txt} 5%    {res}    11043            110
+{txt}10%    {res}    15544            114       {txt}Obs         {res}     83,581
+{txt}25%    {res}    29370            116       {txt}Sum of Wgt. {res}     83,581
+
+{txt}50%    {res}    48447                      {txt}Mean          {res} 59118.19
+                        {txt}Largest       Std. Dev.     {res} 88730.73
+{txt}75%    {res}    74258        5283580
+{txt}90%    {res}   104766        5293270       {txt}Variance      {res} 7.87e+09
+{txt}95%    {res}   129219        6128700       {txt}Skewness      {res} 35.17575
+{txt}99%    {res}   208474        6612160       {txt}Kurtosis      {res} 1871.335
+
+{com}. histogram Sum if pname == 16, freq
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , xscale(r(0,250000))
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , xscale(r(0,25000))
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , freq
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , freq, xscale(r(0,25000))
+{err}invalid 'xscale' 
+{txt}{search r(198), local:r(198);}
+
+{com}. histogram Sum if pname == 16 , xscale(25000)
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{err}option {bf:25000} not allowed
+{txt}{search r(198), local:r(198);}
+
+{com}. histogram Sum if pname == 16 , xscale(0,25000)
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{err}invalid '25000' 
+{txt}{search r(198), local:r(198);}
+
+{com}. ssc desc eqprhistogram
+{txt}
+{.-}
+{s6hlp}
+package ^eqprhistogram^ from http://fmwww.bc.edu/repec/bocode/e
+{smcl}
+{.-}
+{s6hlp}
+
+{smcl}
+{hilite:TITLE}{p 6 8}'EQPRHISTOGRAM': module for equal probability histogram{p_end}
+{s6hlp}
+
+^DESCRIPTION/AUTHOR(S)^
+      
+      eqprhistogram shows a histogram constructed so that each bar
+      represents the same fraction of the data. As an example,  suppose
+      we calculate the minimum, the lower quartile, the  median, the
+      upper quartile and the maximum of a variable. These 5 quantiles
+      allow us to draw a histogram with 4 bars,  each representing 1/4
+      of the total (possibly weighted)  frequency, or of the total
+      probability 1. The height of each bar representing the average
+      probability density in  each interval should be 1 / 4 * (upper
+      quantile - lower  quantile). eqprhistogram refuses to draw graphs
+      when the  quantiles calculated are not distinct. This is likely
+      with categorical or discrete or highly rounded data, especially
+      as the number of quantiles approaches the number of values.
+      
+      Distribution-Date: 20030804
+      
+      Author: Nicholas J. Cox, University of Durham
+      Support: email N.J.Cox@@durham.ac.uk
+      
+
+^INSTALLATION FILES^                        (type ^net install^ ^eqprhistogram^)
+      eqprhistogram.ado
+      eqprhistogram.hlp
+{smcl}
+{.-}
+(type {stata ssc install eqprhistogram} to install)
+
+{com}. 
+. ssc inst eqprhistogram
+{txt}checking {hilite:eqprhistogram} consistency and verifying not already installed...
+installing into C:\Users\Hassan Khurshid\ado\plus\...
+installation complete.
+
+{com}. ssc install eqprhistogram
+{txt}checking {hilite:eqprhistogram} consistency and verifying not already installed...
+all files already exist and are up to date.
+
+{com}. ssc install eqprhistogram
+{txt}checking {hilite:eqprhistogram} consistency and verifying not already installed...
+all files already exist and are up to date.
+
+{com}. eqprhistogram Sum, bin(10) plot(kdensity Sum, biweight w(5))
+{res}
+{com}. eqprhistogram Sum, bin(10)
+{res}
+{com}. eqprhistogram Sum, bin(5)
+{res}
+{com}. histogram Sum if pname == 16 , freq xscale(range(20000)
+{err}) required
+{txt}{search r(100), local:r(100);}
+
+{com}. histogram Sum if pname == 16 , freq xscale(range(20000))
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , freq xscale(range(1000))
+{txt}(bin={res}49{txt}, start={res}99{txt}, width={res}134940.02{txt})
+{res}
+{com}. histogram Sum if pname == 16 , freq width(20000)
+{txt}(bin={res}331{txt}, start={res}99{txt}, width={res}20000{txt})
+{res}
+{com}. tab Sum pname if pname ==16
+{err}too many values
+{txt}{search r(134), local:r(134);}
+
+{com}. count Sum pname if pname ==16
+{err}varlist not allowed
+{txt}{search r(101), local:r(101);}
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}D:\Rutgers\Sem III\Theory & Practice of Public Informatics\More revelations.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}11 Dec 2020, 05:35:21
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
